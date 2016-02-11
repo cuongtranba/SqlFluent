@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SqlFluent
 {
-    public interface IBaseStatement:IFrom,ISelect,IWhere
+    public interface IBaseStatement:IFrom,ISelect,IWhere,IOperator
     {
         string ToString();
     }

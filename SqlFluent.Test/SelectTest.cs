@@ -13,5 +13,14 @@ namespace SqlFluent.Test
             var actual = FluentBuilder.Create().Select("CustomerName,City").From("Customers").ToString();
             StringAssert.AreEqualIgnoringCase("SELECT CustomerName,City FROM Customers;", actual);
         }
+
+        [Test]
+        public void SelectDistinctClauseTest()
+        {
+            var actual = FluentBuilder.Create().SelectDistinct("City").From("Customers").ToString();
+            StringAssert.AreEqualIgnoringCase("SELECT DISTINCT City FROM Customers;", actual);
+        }
+
+
     }
 }
