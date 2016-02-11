@@ -1,4 +1,5 @@
-# SqlFluent
+# SqlFluent [![Build status](https://ci.appveyor.com/api/projects/status/u8kpnr4mxm9qk3n8?svg=true)](https://ci.appveyor.com/project/herrylove72/sqlfluent)
+
 help to write sql become simpler
 
 Like :
