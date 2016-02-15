@@ -1,6 +1,4 @@
-﻿using System;
-using NUnit.Framework;
-using SqlFluent;
+﻿using NUnit.Framework;
 
 namespace SqlFluent.Test
 {
