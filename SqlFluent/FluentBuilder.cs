@@ -6,6 +6,7 @@ namespace SqlFluent
     public class FluentBuilder : IBaseStatement
     {
         private StringBuilder sqlQuery = new StringBuilder();
+        private FluentBuilder() { }
         IWhere IFrom.From(string value)
         {
             return Add(" FROM " + value);
